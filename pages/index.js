@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "../src/components/Navbar/Navbar";
+import App from "./_app";
 
 export default function Home() {
   return (
@@ -13,12 +13,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
-        <Navbar></Navbar>
-        <h1>Hello Main</h1>
+        <App />
       </main>
-      <footer> Footer</footer>
     </div>
   );
 }
