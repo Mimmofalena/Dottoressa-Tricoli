@@ -15,6 +15,10 @@ body {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+  font-weight: 900;
 }
 
 a {
